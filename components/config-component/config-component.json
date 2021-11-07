@@ -1,0 +1,20 @@
+{
+  "collectionName": "component_config_components",
+  "info": {
+    "name": "Media",
+    "icon": "american-sign-language-interpreting",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "instagram": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    }
+  }
+}

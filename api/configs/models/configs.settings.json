@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "configs",
+  "info": {
+    "name": "CONFIGS",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "data": {
+      "type": "dynamiczone",
+      "components": [
+        "config-component.config-component",
+        "config-component.contacts",
+        "config-component.main-icons"
+      ]
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}
