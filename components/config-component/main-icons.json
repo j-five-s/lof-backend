@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_config_component_main_icons",
+  "info": {
+    "name": "Main Icons",
+    "icon": "grin-alt"
+  },
+  "options": {},
+  "attributes": {
+    "header_logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "footer_media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

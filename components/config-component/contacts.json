@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_config_component_contacts",
+  "info": {
+    "name": "contacts",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}
