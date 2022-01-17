@@ -1,0 +1,1 @@
+ssh -i ./cert.pem centos@3.208.114.97
