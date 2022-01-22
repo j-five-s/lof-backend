@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_page_configs",
+  "info": {
+    "name": "Home Page Config",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aboutUsText": {
+      "type": "string"
+    },
+    "AboutProgramLink": {
+      "type": "string"
+    },
+    "ViewOpportunitiesLink": {
+      "type": "string"
+    },
+    "OpportunitiesText": {
+      "type": "text"
+    },
+    "historyOfChangesText": {
+      "type": "richtext"
+    },
+    "OurMissionText": {
+      "type": "richtext"
+    },
+    "footerText": {
+      "type": "richtext"
+    }
+  }
+}

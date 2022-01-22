@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-page-opportunities",
+      "handler": "home-page-opportunity.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/home-page-opportunities/count",
+      "handler": "home-page-opportunity.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/home-page-opportunities/:id",
+      "handler": "home-page-opportunity.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/home-page-opportunities",
+      "handler": "home-page-opportunity.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-page-opportunities/:id",
+      "handler": "home-page-opportunity.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-page-opportunities/:id",
+      "handler": "home-page-opportunity.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

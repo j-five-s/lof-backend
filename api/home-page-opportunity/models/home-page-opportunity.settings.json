@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_page_opportunities",
+  "info": {
+    "name": "Home Page. Opportunity"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "icon": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "detailsLink": {
+      "type": "string"
+    }
+  }
+}
