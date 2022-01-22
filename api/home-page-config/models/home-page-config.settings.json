@@ -15,22 +15,19 @@
     "aboutUsText": {
       "type": "string"
     },
-    "AboutProgramLink": {
+    "aboutProgramLink": {
       "type": "string"
     },
-    "ViewOpportunitiesLink": {
+    "viewOpportunitiesLink": {
       "type": "string"
     },
-    "OpportunitiesText": {
+    "opportunitiesText": {
       "type": "text"
     },
     "historyOfChangesText": {
       "type": "richtext"
     },
-    "OurMissionText": {
-      "type": "richtext"
-    },
-    "footerText": {
+    "ourMissionText": {
       "type": "richtext"
     }
   }
