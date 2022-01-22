@@ -1,0 +1,64 @@
+# to get all data for home page
+query {
+  homePageConfig {
+    aboutUsText
+    aboutProgramLink
+    viewOpportunitiesLink
+    opportunitiesText
+    ourMissionText
+    historyOfChangesText
+  }
+  
+  contact {
+    location
+    email
+    phone
+    facebook
+    instagram
+    youtube
+  }
+  ourMissionItems {
+    number
+    text
+    icon {
+      url
+    }
+  }
+  
+  historyOfChanges(where: {showOnHomePage: true}, limit: 6) {
+    homePageTitle
+    homePageText
+    homePageImage {
+      url
+    }
+    _id
+  }
+  
+  homePageOpportunities {
+    icon {
+      url
+    }
+    title
+    text
+    detailsLink
+  }
+  
+  partners {
+    logo {
+      url
+    }
+    title
+  }
+  donors {
+    logo {
+      url
+    }
+    title
+  }
+  mediaPartners {
+    logo {
+      url
+    }
+    title
+  }
+}

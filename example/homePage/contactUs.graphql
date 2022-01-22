@@ -1,0 +1,15 @@
+mutation {
+  createContactForm (input: {
+    data: {
+      name: "sergiy",
+      email: "sergiy@j-five.dev",
+      message: "hello world"
+    }
+  }) {
+    contactForm {
+      name
+      email
+      message
+    }
+  }
+}
