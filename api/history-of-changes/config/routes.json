@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/history-of-changes",
+      "handler": "history-of-changes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/history-of-changes/count",
+      "handler": "history-of-changes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/history-of-changes/:id",
+      "handler": "history-of-changes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/history-of-changes",
+      "handler": "history-of-changes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/history-of-changes/:id",
+      "handler": "history-of-changes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/history-of-changes/:id",
+      "handler": "history-of-changes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "partners",
+  "collectionName": "history_of_changes",
   "info": {
-    "name": "Partner",
+    "name": "HistoryOfChanges",
     "description": ""
   },
   "options": {
@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "title": {
+    "homePageTitle": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -24,8 +24,16 @@
         }
       }
     },
-    "logo": {
-      "collection": "file",
+    "homePageText": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "homePageImage": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "files",
@@ -34,6 +42,15 @@
       ],
       "plugin": "upload",
       "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "showOnHomePage": {
+      "type": "boolean",
+      "default": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
