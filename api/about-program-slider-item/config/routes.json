@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/about-program-slider-items",
+      "handler": "about-program-slider-item.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/about-program-slider-items/count",
+      "handler": "about-program-slider-item.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/about-program-slider-items/:id",
+      "handler": "about-program-slider-item.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/about-program-slider-items",
+      "handler": "about-program-slider-item.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/about-program-slider-items/:id",
+      "handler": "about-program-slider-item.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/about-program-slider-items/:id",
+      "handler": "about-program-slider-item.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

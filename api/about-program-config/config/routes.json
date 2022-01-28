@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/about-program-config",
+      "handler": "about-program-config.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/about-program-config",
+      "handler": "about-program-config.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/about-program-config",
+      "handler": "about-program-config.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
