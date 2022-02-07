@@ -1,9 +1,8 @@
 {
-  "kind": "singleType",
-  "collectionName": "about_program_configs",
+  "kind": "collectionType",
+  "collectionName": "history_of_changes_row_dividers",
   "info": {
-    "name": "About Program Config",
-    "description": ""
+    "name": "History Of Changes. Row Divider"
   },
   "options": {
     "increments": true,
@@ -16,16 +15,21 @@
     }
   },
   "attributes": {
-    "titleText": {
+    "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "text"
+      "type": "string"
     },
-    "history_of_changes_rows": {
-      "collection": "history-of-changes-row"
+    "text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
     }
   }
 }

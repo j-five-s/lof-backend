@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "history_of_changes_rows",
+  "info": {
+    "name": "History Of Changes. Row",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "history_of_changes_row_items": {
+      "collection": "history-of-changes-row-item"
+    }
+  }
+}

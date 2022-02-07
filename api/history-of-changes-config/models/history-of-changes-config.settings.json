@@ -1,14 +1,13 @@
 {
   "kind": "singleType",
-  "collectionName": "about_program_configs",
+  "collectionName": "history_of_changes_configs",
   "info": {
-    "name": "About Program Config",
-    "description": ""
+    "name": "History Of Changes Config"
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {
     "i18n": {
@@ -22,10 +21,7 @@
           "localized": true
         }
       },
-      "type": "text"
-    },
-    "history_of_changes_rows": {
-      "collection": "history-of-changes-row"
+      "type": "richtext"
     }
   }
 }

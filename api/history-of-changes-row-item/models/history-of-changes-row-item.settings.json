@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "history_of_changes_row_items",
+  "info": {
+    "name": "History Of Changes. Row Item",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "divider",
+        "item"
+      ]
+    },
+    "history_of_change": {
+      "model": "history-of-changes"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "small",
+        "large"
+      ]
+    },
+    "history_of_changes_row_divider": {
+      "model": "history-of-changes-row-divider"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}
