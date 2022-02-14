@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/oppotrunities",
+      "handler": "oppotrunity.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/oppotrunities/count",
+      "handler": "oppotrunity.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/oppotrunities/:id",
+      "handler": "oppotrunity.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/oppotrunities",
+      "handler": "oppotrunity.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/oppotrunities/:id",
+      "handler": "oppotrunity.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/oppotrunities/:id",
+      "handler": "oppotrunity.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

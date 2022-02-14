@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_opportinity_components_forms",
+  "info": {
+    "name": "Form",
+    "icon": "dice-five"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}

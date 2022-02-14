@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_opportinity_components_comments",
+  "info": {
+    "name": "Comments",
+    "icon": "comment-alt"
+  },
+  "options": {},
+  "attributes": {
+    "comments": {
+      "collection": "opportunity-comment"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_opportunity_page_components_rows",
+  "info": {
+    "name": "row",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "column": {
+      "type": "component",
+      "repeatable": false,
+      "component": "opportunity-page-components.column"
+    }
+  }
+}

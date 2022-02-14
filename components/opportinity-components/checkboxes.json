@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_opportinity_components_checkboxes",
+  "info": {
+    "name": "Checkboxes",
+    "icon": "check-double",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "opportinity-components.item"
+    }
+  }
+}

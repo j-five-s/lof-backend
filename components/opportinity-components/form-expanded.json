@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_opportinity_components_form_expandeds",
+  "info": {
+    "name": "FormExpanded",
+    "icon": "copy"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

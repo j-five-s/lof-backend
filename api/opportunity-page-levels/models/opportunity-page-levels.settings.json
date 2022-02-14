@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "opportunity_page_levels",
+  "info": {
+    "name": "Opportunity Page. Levels",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "color": {
+      "type": "string"
+    },
+    "number": {
+      "type": "integer"
+    },
+    "opportunities": {
+      "collection": "opportunity-page-opportunity"
+    }
+  }
+}

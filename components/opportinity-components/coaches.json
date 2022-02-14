@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_opportinity_components_coaches",
+  "info": {
+    "name": "coaches",
+    "icon": "user-friends"
+  },
+  "options": {},
+  "attributes": {
+    "coaches": {
+      "collection": "team-member"
+    }
+  }
+}

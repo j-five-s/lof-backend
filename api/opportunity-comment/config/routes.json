@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/opportunity-comments",
+      "handler": "opportunity-comment.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/opportunity-comments/count",
+      "handler": "opportunity-comment.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/opportunity-comments/:id",
+      "handler": "opportunity-comment.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/opportunity-comments",
+      "handler": "opportunity-comment.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/opportunity-comments/:id",
+      "handler": "opportunity-comment.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/opportunity-comments/:id",
+      "handler": "opportunity-comment.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

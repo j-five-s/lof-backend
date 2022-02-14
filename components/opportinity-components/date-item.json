@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_opportinity_components_date_items",
+  "info": {
+    "name": "DateItem",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

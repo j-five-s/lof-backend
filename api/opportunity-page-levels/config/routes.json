@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/opportunity-page-levels",
+      "handler": "opportunity-page-levels.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/opportunity-page-levels/count",
+      "handler": "opportunity-page-levels.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/opportunity-page-levels/:id",
+      "handler": "opportunity-page-levels.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/opportunity-page-levels",
+      "handler": "opportunity-page-levels.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/opportunity-page-levels/:id",
+      "handler": "opportunity-page-levels.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/opportunity-page-levels/:id",
+      "handler": "opportunity-page-levels.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

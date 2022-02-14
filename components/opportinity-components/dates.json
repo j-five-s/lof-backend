@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_opportinity_components_dates",
+  "info": {
+    "name": "Dates",
+    "icon": "calendar-check"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "DateItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "opportinity-components.date-item"
+    }
+  }
+}

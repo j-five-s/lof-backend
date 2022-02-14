@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_opportinity_components_instruments",
+  "info": {
+    "name": "Instruments",
+    "icon": "cog"
+  },
+  "options": {},
+  "attributes": {
+    "instruments": {
+      "collection": "opportunity-instrument"
+    }
+  }
+}

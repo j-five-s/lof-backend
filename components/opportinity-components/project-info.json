@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_opportinity_components_project_infos",
+  "info": {
+    "name": "projectInfo",
+    "icon": "info-circle"
+  },
+  "options": {},
+  "attributes": {
+    "start": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}

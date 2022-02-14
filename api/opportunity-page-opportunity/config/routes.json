@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/opportunity-page-opportunities",
+      "handler": "opportunity-page-opportunity.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/opportunity-page-opportunities/count",
+      "handler": "opportunity-page-opportunity.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/opportunity-page-opportunities/:id",
+      "handler": "opportunity-page-opportunity.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/opportunity-page-opportunities",
+      "handler": "opportunity-page-opportunity.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/opportunity-page-opportunities/:id",
+      "handler": "opportunity-page-opportunity.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/opportunity-page-opportunities/:id",
+      "handler": "opportunity-page-opportunity.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

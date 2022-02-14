@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/opportunity-page-config",
+      "handler": "opportunity-page-config.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/opportunity-page-config",
+      "handler": "opportunity-page-config.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/opportunity-page-config",
+      "handler": "opportunity-page-config.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

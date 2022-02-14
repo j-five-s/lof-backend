@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_opportunity_page_components_columns",
+  "info": {
+    "name": "column",
+    "icon": "columns",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "opportunities": {
+      "collection": "oppotrunity"
+    },
+    "showItems": {
+      "type": "enumeration",
+      "enum": [
+        "horizontal",
+        "vertical"
+      ]
+    },
+    "width": {
+      "type": "enumeration",
+      "enum": [
+        "x1x3",
+        "x2x3",
+        "x3x3"
+      ]
+    },
+    "height": {
+      "type": "enumeration",
+      "enum": [
+        "x1x3",
+        "x2x3"
+      ]
+    }
+  }
+}

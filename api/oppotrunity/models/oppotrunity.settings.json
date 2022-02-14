@@ -1,0 +1,111 @@
+{
+  "kind": "collectionType",
+  "collectionName": "opportunities",
+  "info": {
+    "name": "Opportunity",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "mainImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "subTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "desc": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    },
+    "components": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "opportinity-components.project-info",
+        "opportinity-components.blue-boxes",
+        "opportinity-components.checkboxes",
+        "opportinity-components.coaches",
+        "opportinity-components.comments",
+        "opportinity-components.instruments",
+        "opportinity-components.item",
+        "opportinity-components.radio-boxes",
+        "opportinity-components.date-item",
+        "opportinity-components.dates",
+        "opportinity-components.manager",
+        "opportinity-components.form-expanded",
+        "opportinity-components.form"
+      ]
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "unique": true
+    },
+    "history_of_changes": {
+      "collection": "history-of-changes"
+    }
+  }
+}

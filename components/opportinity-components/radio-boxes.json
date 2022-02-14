@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_opportinity_components_radio_boxes",
+  "info": {
+    "name": "radioBoxes",
+    "icon": "dot-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "opportinity-components.item"
+    }
+  }
+}

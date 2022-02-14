@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_opportinity_components_managers",
+  "info": {
+    "name": "Manager",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "person": {
+      "model": "team-member"
+    }
+  }
+}

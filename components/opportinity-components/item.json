@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_opportinity_components_items",
+  "info": {
+    "name": "item",
+    "icon": "chevron-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

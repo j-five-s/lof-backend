@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_opportinity_components_blue_boxes",
+  "info": {
+    "name": "BlueBoxes",
+    "icon": "boxes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "opportinity-components.item"
+    }
+  }
+}
