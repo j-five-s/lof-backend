@@ -2,13 +2,14 @@
   "collectionName": "components_opportunity_page_components_rows",
   "info": {
     "name": "row",
-    "icon": "arrows-alt-h"
+    "icon": "arrows-alt-h",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "column": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "opportunity-page-components.column"
     }
   }
