@@ -17,19 +17,12 @@
         "vertical"
       ]
     },
-    "width": {
+    "size": {
       "type": "enumeration",
       "enum": [
-        "x1x3",
-        "x2x3",
-        "x3x3"
-      ]
-    },
-    "height": {
-      "type": "enumeration",
-      "enum": [
-        "x1x3",
-        "x2x3"
+        "x1x2",
+        "x2x1",
+        "x3x1"
       ]
     }
   }

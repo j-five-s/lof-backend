@@ -86,9 +86,7 @@
         "opportinity-components.coaches",
         "opportinity-components.comments",
         "opportinity-components.instruments",
-        "opportinity-components.item",
         "opportinity-components.radio-boxes",
-        "opportinity-components.date-item",
         "opportinity-components.dates",
         "opportinity-components.manager",
         "opportinity-components.form-expanded",
@@ -106,6 +104,54 @@
     },
     "history_of_changes": {
       "collection": "history-of-changes"
+    },
+    "x1x2Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "x2x1Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "x3x1Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
