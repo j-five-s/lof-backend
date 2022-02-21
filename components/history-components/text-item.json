@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_history_components_text_items",
+  "info": {
+    "name": "textItem",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

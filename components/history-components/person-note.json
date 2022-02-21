@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_history_components_person_notes",
+  "info": {
+    "name": "personNote",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "textColor": {
+      "type": "string"
+    }
+  }
+}

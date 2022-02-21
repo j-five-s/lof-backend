@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_history_components_texts",
+  "info": {
+    "name": "text",
+    "icon": "text-width"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "marginTop": {
+      "type": "integer"
+    }
+  }
+}

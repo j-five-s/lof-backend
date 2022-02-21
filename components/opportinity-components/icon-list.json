@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_opportinity_components_icon_lists",
+  "info": {
+    "name": "IconList",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "opportinity-components.item-with-icon"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

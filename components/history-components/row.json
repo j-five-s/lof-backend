@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_history_components_2_columns",
+  "info": {
+    "name": "2-columns",
+    "icon": "pause",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "first_column": {
+      "model": "history-of-changes-content"
+    },
+    "second_column": {
+      "model": "history-of-changes-content"
+    }
+  }
+}

@@ -90,7 +90,9 @@
         "opportinity-components.dates",
         "opportinity-components.manager",
         "opportinity-components.form-expanded",
-        "opportinity-components.form"
+        "opportinity-components.form",
+        "opportinity-components.section-with-icon",
+        "opportinity-components.icon-list"
       ]
     },
     "slug": {

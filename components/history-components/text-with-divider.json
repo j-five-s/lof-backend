@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_history_components_text_with_dividers",
+  "info": {
+    "name": "textWithDivider",
+    "icon": "sort-alpha-down"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "color": {
+      "type": "string"
+    }
+  }
+}

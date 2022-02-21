@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_opportinity_components_section_with_icons",
+  "info": {
+    "name": "SectionWithIcon",
+    "icon": "circle"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_history_components_blue_box_carousels",
+  "info": {
+    "name": "blueBoxCarousel",
+    "icon": "angle-double-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "history-components.text-item"
+    },
+    "marginTop": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "history_of_changes_contents",
+  "info": {
+    "name": "HistoryOfChanges - Content",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "history-components.text",
+        "history-components.blue-box-carousel",
+        "history-components.title",
+        "history-components.text-with-divider"
+      ]
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_history_components_youtubes",
+  "info": {
+    "name": "youtube",
+    "icon": "play"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_history_components_titles",
+  "info": {
+    "name": "title",
+    "icon": "text-height"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "marginTop": {
+      "type": "integer"
+    }
+  }
+}
