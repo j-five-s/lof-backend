@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_history_components_center_texts",
+  "info": {
+    "name": "centerText",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}
